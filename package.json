@@ -1,0 +1,17 @@
+{
+  "name": "ogohai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ogoh.ai — Real-Time Scam Call Detector",
+  "scripts": {
+    "dev:server": "cd server && node index.js",
+    "dev:client": "cd client && npx vite --host",
+    "dev:landing": "cd landing && npx vite --host --port 5174",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build": "cd client && npx vite build",
+    "install:all": "cd server && npm install && cd ../client && npm install && cd ../landing && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

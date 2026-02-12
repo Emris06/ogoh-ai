@@ -11,6 +11,7 @@ export default function Navbar() {
     { label: 'Muammo', to: '/', hash: 'muammo' },
     { label: 'Yechim', to: '/', hash: 'yechim' },
     { label: 'Qanday ishlaydi', to: '/', hash: 'qanday-ishlaydi' },
+    { label: 'Moliyaviy foyda', to: '/', hash: 'biznes-model' },
     { label: 'Jamoa', to: '/', hash: 'jamoa' },
     { label: 'Nega aynan biz', to: '/', hash: 'nega-biz' },
     { label: 'Yutuqlarimiz', to: '/', hash: 'yutuqlarimiz' },
