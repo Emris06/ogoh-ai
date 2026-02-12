@@ -23,16 +23,15 @@ export default function Demo() {
             </svg>
             Demo video
           </h2>
-          <div className="rounded-2xl border border-brand-border bg-brand-panel overflow-hidden aspect-video flex items-center justify-center">
-            {/* Replace with actual video embed */}
-            <div className="text-center">
-              <svg className="w-16 h-16 text-gray-600 mx-auto mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
-              </svg>
-              <p className="text-gray-500 text-sm">Demo video bu yerga joylashtiriladi</p>
-              <p className="text-gray-600 text-xs mt-1">YouTube / Loom embed yoki mp4</p>
-            </div>
+          <div className="rounded-2xl border border-brand-border bg-brand-panel overflow-hidden aspect-video">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/wLPP7a0PyU8?si=vetfmbTyrZULxl5x"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
           </div>
         </section>
 
